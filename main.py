@@ -9,7 +9,7 @@ import shelve
 from keep_alive import keep_alive
 
 
-API_KEY="6184032460:AAFp_PeBKcqhl3MQqTDUyRIIFrjmSxPLfKg"
+API_KEY=
 bot=telebot.TeleBot(API_KEY)
 keep_alive()
 @bot.message_handler(commands=['start','hrlp'])
